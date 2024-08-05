@@ -24,9 +24,9 @@ export default function MailForm() {
       };
 
       return (
-        <div className="bg-yellow-500 p-10 flex flex-row justify-around mb-10 " >
+        <div className=" p-10 flex flex-row justify-around mb-10 fade-in" >
           <ul className="flex flex-col justify-around">
-            <li className="font-mono text-3xl tracking-widest slide-in-fwd-center">Contact us</li>
+            <li className="font-mono text-5xl text-sky-800 font-bold tracking-widest slide-in-fwd-center">Contact us</li>
             <li>+91 XXXXXXXX00</li>
             <li>+91 XXXXXXXX00</li>
             <li>XXXX@example.com</li>
@@ -34,7 +34,7 @@ export default function MailForm() {
           </ul>
           
         <form onSubmit={handleSubmit} className="flex flex-col w-1/2">
-          <h1 className=" font-mono text-3xl mb-10 tracking-widest slide-in-fwd-center">Mail us</h1>
+          <h1 className=" font-mono text-5xl text-sky-800 font-bold mb-10 tracking-widest slide-in-fwd-center">Mail us</h1>
           <input 
             type="name"
             placeholder="name"
@@ -51,7 +51,7 @@ export default function MailForm() {
             onChange={(e) => setMessage(e.target.value)}  
             ></textarea>
             <br/>
-          <button type="submit" className="bg-black opacity-60 hover:opacity-80 text-slate-100 font-bold py-2 w-1/4 rounded-xl">Send Email</button>
+          <button type="submit" className=" heartbeat bg-black opacity-60 hover:opacity-80 text-slate-100 font-bold py-2 w-1/4 rounded-xl">Send Email</button>
         </form>
 
         </div>

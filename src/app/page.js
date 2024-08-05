@@ -2,15 +2,17 @@
 
 import Header from "./components/Header";
 import MailForm from "./components/Mail";
+import Photos from "./components/Photos";
 import Services from "./components/Services";
 
 import WhatsApp from "./components/WhatsApp";
 
 export default function Home() {
   return (
-    <div>
-      <div className="bg-yellow-500 p-5 tracking-in-expand text-center text-blue-950 font-bold text-2xl"> Temporary website </div>
+    <div className="bg-amber-100">
+      
       <Header/>
+      <Photos/>
       <Services/>
 
       <WhatsApp/>

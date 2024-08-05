@@ -3,16 +3,17 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className=" mb-10 flex flex-row ">
-    <div className=" mt-10 ml-14 fade-in-left">
-      <img src="front.png" width={800}/>
-    </div>
-    <div className=" bg-black text-white w-1/3 h-50 mt-60 font-bold text-5xl p-10 fade-in-right">
-      <h1 > IT Consulting & Services</h1>
+    <div className=" my-10 w-full flex flex-row  ">
+      <img src="img1.jpg" className='m-10 slide-in-fwd-center'/>
+      <div className="p-5 bg-slate-50 mt-96 font-bold text-5xl text-center fade-in-bottom">
+      <h1 className='text-sky-800'> Maiden Farm</h1>
       <br/>
-      <p className="text-xl font-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores excepturi eius placeat, ipsum sit officia quia tempora in itaque corrupti.</p>
+      <p className="text-xl font-normal font-mono text-slate-500"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit magni sunt officia. Repellat saepe reiciendis esse asperiores quo, quisquam voluptatem. Quidem, odio. Facilis sunt aliquam ex ad enim eius animi dicta deleniti sed non, quis pariatur. Dolore magni tempora dolorem, repudiandae praesentium eveniet, laboriosam iure explicabo natus quisquam tempore et?
+      </p>
+      <br/>
+      <button className='text-2xl text-amber-300 bg-black opacity-50 hover:opacity-100 rounded-lg p-5 heartbeat'>Enquiry Now</button>
     </div>
-  </div>
+   </div>
   )
 }
 
