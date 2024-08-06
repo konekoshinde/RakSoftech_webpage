@@ -16,6 +16,9 @@ export default function MailForm() {
       const handleSubmit = async (e) => {
         e.preventDefault();
         try {
+          if(clientName==="" || message===""){
+            throw "please fill the details";
+          }
           const result=await axios.post("/api/SendMail", {
             "from":clientName,
             "to":"konekoshinde2004@gmail.com",

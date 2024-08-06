@@ -10,7 +10,7 @@ function Header() {
       <br/>
       <p className=" font-normal font-sans "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ad commodi autem et sed ex ipsa quam officiis sunt voluptate, porro ducimus corrupti. Quisquam fugit corporis debitis totam nesciunt error optio voluptate ratione maxime itaque odit officia consequuntur similique sit reiciendis nobis, magnam doloribus nemo impedit, sunt qui quibusdam consequatur esse cumque. Tempore, suscipit tenetur porro aspernatur accusamus molestias ipsam quia repudiandae maxime? Obcaecati doloribus laboriosam rem quod, architecto atque.</p><br/>
       <br/>
-      <button className=" mt-2 heartbeat bg-yellow-500 opacity-60 hover:opacity-80 text-white py-3 w-1/2">Enquiry Now</button>
+      <button className=" animate-bounce mt-2 bg-yellow-500 opacity-60 hover:opacity-80 text-white py-3 w-1/2">Enquiry Now</button>
     </div>
    </div>
   )

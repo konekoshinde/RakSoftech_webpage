@@ -8,7 +8,7 @@ function Photos() {
   const [i,setI]=useState(0);
   const pics=["img1.jpg","img2.jpg","img3.jpg","img4.jpg","img5.jpg","img6.jpg","img8.jpg","img9.jpg"]
   return (
-    <div className='mb-10 flex flex-row lg:px-32 '>
+    <div className=' mb-10 flex flex-row lg:px-32 '>
           <button onClick={()=>setI( (i!==0)?(i-1):7)} className='heartbeat hover:bg-yellow-500 rounded-full p-2 h-20 mt-auto mb-auto'>
 
           <IconContext.Provider value={{ size: "2.5rem" }}>
@@ -19,9 +19,9 @@ function Photos() {
 
           </button>
           <div className='flex flex-col lg:flex-row p-2 lg:p-12 bg-white gap-x-10'>
-          <img src={pics[i]} className=' fade-in-right w-full ml-auto mr-auto lg:h-96 lg:w-96  lg:flex-1 lg:p-5 bg-stone-200' />
+          <img src={pics[i]} className='  w-full ml-auto mr-auto lg:h-96 lg:w-96  lg:flex-1 lg:p-5 bg-stone-200' />
 
-          <div className='flex flex-col text-justify lg:w-1/3 w-full swing-in-top-fwd'>
+          <div className='animate-pulse flex flex-col text-justify lg:w-1/3 w-full '>
             <h1 className='text-left font-serif lg:text-4xl text-2xl tracking-wide'>Lorem, ipsum.</h1>
             <br/>
             <br/>
