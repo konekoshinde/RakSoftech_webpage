@@ -2,13 +2,23 @@ import React from 'react'
 
 function Services() {
   return (
-    <div className='flex flex-col w-full pb-10 pt-10 mb-10 fade-in-bottom'>
-      <h1 className="slide-in-fwd-center font-mono text-sky-800 p-5 w-1/4 mt-10 ml-auto mr-auto font-bold text-5xl text-center"> Occassion</h1>
+    <div className='flex flex-col w-full pb-10 pt-10 mb-10 fade-in-bottom '>
+      <h1 className="flex-none  slide-in-fwd-center font-serif ml-5 lg:ml-auto lg:mr-auto tracking-wide text-2xl lg:text-5xl text-center font-thin mt-10 "> A Special Place for Your <br/> Needs</h1>
       <br/>
-      <div className='flex flex-row justify-around p-10 text-2xl '>
-        <li className=' hover:bg-amber-300 hover:text-white mr-10 font-mono p-10 bg-slate-50 text-sky-800 border-yellow-600  '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic iusto necessitatibus laudantium cumque enim, molestias unde, provident, sed error esse expedita aspernatur facilis. Alias similique doloremque, dolores ipsa ut voluptatem.</li>
-        <li className=' hover:bg-amber-300 hover:text-white mr-10 font-mono p-10 bg-slate-50 text-sky-800 border-yellow-600  '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic iusto necessitatibus laudantium cumque enim, molestias unde, provident, sed error esse expedita aspernatur facilis. Alias similique doloremque, dolores ipsa ut voluptatem.</li>
-        <li className=' hover:bg-amber-300 hover:text-white mr-10 font-mono p-10 bg-slate-50 text-sky-800 border-yellow-600  '>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic iusto necessitatibus laudantium cumque enim, molestias unde, provident, sed error esse expedita aspernatur facilis. Alias similique doloremque, dolores ipsa ut voluptatem.</li>
+      <div className=' bg-stone-200 flex flex-col lg:flex-row justify-around p-10 text-normal lg:text-xl gap-y-10 lg:gap-x-10'>
+        <div className='relative heartbeat'>
+          <h1 className='absolute font-mono w-1/2 p-5 mt-5 bg-white opacity-70 '>Dine</h1>
+          <img src="img10.jpg" width={800} height={200} className=''/>
+        </div>
+        <div className='relative heartbeat'>
+          <h1 className='absolute font-mono w-1/2 p-5 mt-5 bg-white opacity-70'>Room</h1>
+          <img src="img11.png" width={800} height={200} className=''/>
+        </div>
+        <div className='relative heartbeat'>
+          <h1 className='absolute font-mono w-1/2 p-5 mt-5 bg-white opacity-70'>Pool</h1>
+          <img src="img12.jpg" width={800} height={200} className=''/>
+        </div>
+
         
       </div>
     </div>

@@ -15,7 +15,7 @@ export default function WhatsApp() {
 
     return (
         <div>
-            <button onClick={()=>handleclick()} className="fixed bottom-5 right-5 heartbeat">
+            <button onClick={()=>handleclick()} className="fixed bottom-5 right-5 heartbeat bg-white p-2">
                 <img src="whatsapp-873316_640.png" width={50} height={100} />
             </button>
             

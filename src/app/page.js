@@ -9,13 +9,12 @@ import WhatsApp from "./components/WhatsApp";
 
 export default function Home() {
   return (
-    <div className="bg-amber-100">
+    <div className="bg-orange-50" >
       
       <Header/>
       <Photos/>
       <Services/>
 
-      <WhatsApp/>
       
       <MailForm/>
       <iframe 
@@ -24,8 +23,9 @@ export default function Home() {
       </iframe>
       
       <div className="w-full h-10 text-white bg-black text-sm text-center">
-       <p className="p-2"> By Chaitrali Shinde</p>
+       <p className="p-2 text-yellow-500"> By Chaitrali Shinde</p>
       </div>
+      <WhatsApp/>
     </div>
   );
 }

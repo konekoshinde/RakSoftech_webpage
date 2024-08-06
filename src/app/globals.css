@@ -41,7 +41,7 @@
 
 .swing-in-top-fwd{-webkit-animation:swing-in-top-fwd 2s cubic-bezier(.175,.885,.32,1.275) .5s both;animation:swing-in-top-fwd 2s cubic-bezier(.175,.885,.32,1.275) .5s both}
 :hover.shadow-pop-bl{-webkit-animation:shadow-pop-bl .6s cubic-bezier(.47,0.000,.745,.715) 2s both;animation:shadow-pop-bl .6s cubic-bezier(.47,0.000,.745,.715) 2s both}
- .tracking-in-expand{-webkit-animation:tracking-in-expand 2s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand 2s cubic-bezier(.215,.61,.355,1.000) both}
+ :hover.tracking-in-expand{-webkit-animation:tracking-in-expand 2s cubic-bezier(.215,.61,.355,1.000) both;animation:tracking-in-expand 2s cubic-bezier(.215,.61,.355,1.000) both}
 .fade-in-right{-webkit-animation:fade-in-right 2s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-right 2s cubic-bezier(.39,.575,.565,1.000) both}
 .fade-in-left{-webkit-animation:fade-in-left 2s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-left 2s cubic-bezier(.39,.575,.565,1.000) both}
 .fade-in-bottom{-webkit-animation:fade-in-bottom 1s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-bottom 1s cubic-bezier(.39,.575,.565,1.000) both}
