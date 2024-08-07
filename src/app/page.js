@@ -51,11 +51,11 @@ export default function Home() {
        <p className="p-2 text-yellow-500"> By Chaitrali Shinde</p>
       </div>
       <WhatsApp/>
-      <div className="lg:m-2 flex flex-col  justify-around  font-bold font-mono w-2/12 lg:w-1/12 fixed inset-y-0 pt-52">
-        <a href="#Introduction" className="bg-orange-300 my-2 text-black lg:p-3">About</a>
-        <a href="#Gallery" className="bg-orange-300 my-2 text-black lg:p-3">Gallery</a>
-        <a href="#Contact" className="bg-orange-300 my-2 text-black lg:p-3">Contact </a>
-        <a href="#TOP" className="bg-orange-300 my-2 text-black lg:p-3">top</a>
+      <div className="lg:m-2 flex flex-col lg:gap-y-10 justify-around font-mono w-2/12 h-1/4 lg:w-1/12 fixed bottom-1/4">
+        <a href="#Introduction" className="bg-orange-300 my-2 text-black lg:p-1">About</a>
+        <a href="#Gallery" className="bg-orange-300 my-2 text-black lg:p-1">Gallery</a>
+        <a href="#Contact" className="bg-orange-300 my-2 text-black lg:p-1">Contact </a>
+        <a href="#TOP" className="bg-orange-300 my-2 text-black lg:p-1">top</a>
       </div>
     </div>
   );
