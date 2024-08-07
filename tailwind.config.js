@@ -17,6 +17,27 @@ const config={
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      animation: {
+        'ping': 'ping 5s cubic-bezier(0, 0, 0.2, 0.2) infinite'
+      },
+      keyframes: {
+        ping: {
+          "0%": {
+            transform: 'scale(1)',
+            opacity: '100'
+          },
+          "50%":{
+            transform: 'scale(1.25)',
+            opacity: '75'
+
+          },
+          "100%":{
+            transform: 'scale(1)',
+            opacity: '100'
+          }
+        }
+      }
+      
     },
   },
   plugins: [
