@@ -1,7 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-![](https://github.com/konekoshinde/RakSoftech_webpage/blob/main/public/Screenshot%202024-08-05%20133512.png)
-![](https://github.com/konekoshinde/RakSoftech_webpage/blob/main/public/Screenshot%20(93).png)
-![](https://github.com/konekoshinde/RakSoftech_webpage/blob/main/public/Screenshot%20(92).png)
+![](https://github.com/konekoshinde/RakSoftech_webpage/blob/main/public/Screenshot%20(96).png)
+![](https://github.com/konekoshinde/RakSoftech_webpage/blob/main/public/Screenshot%20(95).png)
+![](https://github.com/konekoshinde/RakSoftech_webpage/blob/main/public/Screenshot%20(97).png)
+![](https://github.com/konekoshinde/RakSoftech_webpage/blob/main/public/Screenshot%20(98).png)
+![](https://github.com/konekoshinde/RakSoftech_webpage/blob/main/public/Screenshot%20(99).png)
 ## Getting Started
 
 First, run the development server:
